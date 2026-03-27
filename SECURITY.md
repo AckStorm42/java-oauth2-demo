@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a minimal Java-based OAuth 2.0 client credentials demo intended for local development and educational purposes.
+This repository follows secure-by-default principles where possible, even as a minimal demo.
 
 It is **not intended for production use** and does not implement all security controls required for a production-grade OAuth client.
 

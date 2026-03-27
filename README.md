@@ -129,6 +129,18 @@ mvn clean compile exec:java
 
 ---
 
+## 🧩 Design Choices
+
+This demo intentionally prioritizes clarity and security fundamentals over completeness:
+
+- Uses environment variables instead of hard-coded configuration
+- Fails fast when required configuration is missing
+- Avoids logging sensitive data such as access tokens
+- Keeps dependencies minimal to reduce attack surface
+- Uses Java 21 standard libraries for HTTP communication
+
+These choices reflect secure-by-default patterns commonly used in production systems.
+
 ## 🧠 Key Concepts Demonstrated
 
 - OAuth 2.0 Client Credentials Flow
