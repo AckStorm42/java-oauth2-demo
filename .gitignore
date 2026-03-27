@@ -1,0 +1,88 @@
+# =========================
+# Build outputs
+# =========================
+target/
+build/
+out/
+
+# Maven
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDEs
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# =========================
+# Java
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Local config
+# =========================
+application-local.yml
+application-local.properties
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.swp
+*~
+
+# =========================
+# Coverage / reports
+# =========================
+coverage/
+*.lcov
+
+# =========================
+# Node (if frontend present)
+# =========================
+node_modules/
+
+# =========================
+# Misc
+# =========================
+*.pid
+
+*.zip
